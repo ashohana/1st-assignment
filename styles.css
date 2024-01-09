@@ -1,3 +1,7 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 .banner-card{
     position: relative;
 }
@@ -5,14 +9,42 @@
 .banner-card img{
      width: 1000px;
      height: 500px;
+     text-align: center;
+     border-radius: 16px;
+     background: linear-gradient;
 }
  .banner-text{
     position: absolute;
     text-align: center;
-    top:25%;
+    top: 20px;
     left:25%;
+    right: 20%;
     color: white;
     padding: 10px;
+    
+ }
+ .banner-container{
+    color: red;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+ }
+.banner-container p{
+    color: red;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+}
+ .banner-container h3{
+    color: black;
+    width: 700;
+ }
+.banner-container img{
+    display: flex;
+    border-radius: 5px;
+    width: 200px;
+    height: 500px;
  }
 
 
